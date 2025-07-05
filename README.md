@@ -1,8 +1,16 @@
 # 🌍 ResilientAI
 
+![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
+![Project Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Issues](https://img.shields.io/github/issues/abbaimam3/resilientai)
+![Last Commit](https://img.shields.io/github/last-commit/abbaimam3/resilientai)
+
 **A Community-Centered Early Warning and Decision System for Climate Disasters in the Lake Chad Basin**
 
 ResilientAI is an open-source project that uses machine learning, geospatial data, and local languages to predict floods, send early alerts, and support real-time community response in climate-vulnerable regions like Maiduguri, Nigeria.
+
+---
 
 ## 🚨 Problem
 
@@ -17,12 +25,7 @@ ResilientAI leverages:
 - 📲 Multilingual alerts via SMS/USSD (Hausa, Kanuri)
 - 🧭 Real-time flood maps and risk zones
 
-## 📦 Features
-
-- 📡 Predicts floods 3–5 days ahead
-- 🗺️ Maps flood risk zones
-- 🔔 Sends alerts to mobile phones in local languages
-- 🧑🏾‍🤝‍🧑🏽 Co-designed with local youth and emergency responders
+---
 
 ## 🧰 Tech Stack
 
@@ -35,35 +38,28 @@ ResilientAI leverages:
 | Alerts        | Twilio / Africa’s Talking              |
 | Hosting       | Render, Railway, or Fly.io             |
 
-## 🏁 Getting Started
+---
 
-1. **Clone the repo**
+## 🚀 Getting Started
+
 ```bash
+# Clone the repo
 git clone https://github.com/abbaimam3/resilientai.git
 cd resilientai
-```
 
-2. **Set up environment**
-```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
-3. **Run API locally**
-```bash
+# Train a model
+python train_model.py
+
+# Start the API
 uvicorn main_api:app --reload
 ```
 
-4. **Train your first model**
-```bash
-python train_model.py
-```
+---
 
-5. **Test prediction**
-```bash
-curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -d '{"rainfall_sequence":[4.2, 3.8, 5.1, 6.0, 5.6]}'
-```
-
-## 🧪 Folder Structure
+## 📁 Project Structure
 
 ```bash
 resilientai/
@@ -77,12 +73,16 @@ resilientai/
 └── README.md
 ```
 
-## 🌱 Future Plans
+---
 
-- 🌾 Add drought, displacement, and cholera modules
-- 🗺️ Expand to Chad, Niger, and Cameroon
-- 🛠️ Create offline dashboard for rural use
-- 🔓 Launch open-source toolkit and API
+## 🌱 Future Roadmap
+
+- Expand to cover Lake Chad Basin (Niger, Cameroon, Chad)
+- Add drought and cholera risk modules
+- Deploy offline dashboards for rural responders
+- Local co-design workshops and training for youth volunteers
+
+---
 
 ## 🤝 Collaborators & Credits
 
@@ -90,10 +90,14 @@ resilientai/
 - **Partners**: UniMaid, NEMA, Red Cross, Africa AI Lab
 - **Supporters**: WFSIE, Google.org, UNDP (pending)
 
+---
+
 ## 📬 Contact
 
-Have feedback, want to contribute or fund?  
-📧 abbaimam3@gmail.com | 🌍 [github.com/abbaimam3](https://github.com/abbaimam3)
+📧 abbaimam3@gmail.com  
+🌐 [https://github.com/abbaimam3](https://github.com/abbaimam3)
+
+---
 
 ## 🧡 License
 
