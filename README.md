@@ -39,7 +39,7 @@ ResilientAI leverages:
 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/yourusername/resilientai.git
+git clone https://github.com/abbaimam3/resilientai.git
 cd resilientai
 ```
 
@@ -93,7 +93,7 @@ resilientai/
 ## 📬 Contact
 
 Have feedback, want to contribute or fund?  
-📧 abbaimam@example.com | 🌍 github.com/yourusername
+📧 abbaimam3@gmail.com | 🌍 [github.com/abbaimam3](https://github.com/abbaimam3)
 
 ## 🧡 License
 
